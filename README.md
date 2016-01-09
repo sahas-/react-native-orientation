@@ -35,6 +35,8 @@ Run `npm install react-native-orientation --save`
 
     ```
     import com.github.yamill.orientation.OrientationPackage;  // <--- import
+    import android.content.Intent; // <--- import
+    import android.content.res.Configuration; // <-- import
 
     public class MainActivity extends Activity implements DefaultHardwareBackBtnHandler {
       ......
